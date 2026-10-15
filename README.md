@@ -9,11 +9,11 @@ A Windows application for monitoring and calibrating a Nuvoton NADC24-based ATX 
 - Saves test results to timestamped output_yyyyMMdd_HHmmss.txt files.
 
 📊 Hardware & Communication
-Device	Interface	Function
-NADC24 ATX power meter	USB-to-serial, 115200 8-N-1	Measurement and calibration
-Chroma 66202 power meter	NI-VISA	Reference measurements
-Chroma 63202A electronic load	NI-VISA	Programmable load
-Calibration points: AC 100 V at 10% and 80% load; AC 230 V at 80% and 10% load (Points 1–4).
+| Device | Interface | Function |
+| :--- | :--- | :--- |
+| NADC24 ATX power meter | USB-to-serial, 115200 8-N-1 | Measurement and calibration |
+| Chroma 66202 power meter | NI-VISA | Reference measurements |
+| Chroma 63202A electronic load | NI-VISA | Programmable load |
 
 🛠️ Automated Load Test
 Enter the DUT full-load current, settling delay, and repeat count, then click Start. The tool steps the load from 5% to 100% in 5% increments, reads voltage/current/power from both meters, calculates error, and logs the results.

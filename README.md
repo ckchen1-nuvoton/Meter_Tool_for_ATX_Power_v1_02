@@ -1,6 +1,7 @@
 # Meter Tool for ATX Power v1.02
 
 A Windows application for monitoring and calibrating a Nuvoton NADC24-based ATX power meter. It connects to the meter over a COM port and to Chroma instruments through NI-VISA.
+
 🚀 Key Features
 - Displays frequency, Vrms, Irms, power, and Vbulk with live charts.
 - Reads device information and supports four-point calibration.
